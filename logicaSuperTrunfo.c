@@ -151,7 +151,7 @@ int main(){
         }
         break;
 
-        case 3:
+    case 3:
         printf("\n--- PIB ---\n");
         printf("%s: %.2f\n", Estado01, PIB01);
          printf("%s: %.2f\n", Estado02, PIB02);
@@ -179,8 +179,7 @@ int main(){
         }
         break;
 
-    
-        case 5:
+    case 5:
         printf("\n--- Pontos Turísticos ---\n");
         printf("%s: %d\n", Estado01, Pontos_Turisticos01);
         printf("%s: %d\n", Estado02, Pontos_Turisticos02);
