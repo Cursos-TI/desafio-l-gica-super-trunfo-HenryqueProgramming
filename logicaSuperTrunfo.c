@@ -179,7 +179,27 @@ int main(){
         }
         break;
 
+    
+        case 5:
+        printf("\n--- Pontos Turísticos ---\n");
+        printf("%s: %d\n", Estado01, Pontos_Turisticos01);
+        printf("%s: %d\n", Estado02, Pontos_Turisticos02);
 
-    return 0;
+        if (Pontos_Turisticos01 > Pontos_Turisticos02){
+            printf("Vencedor: %s\n", Estado01);
+        } else if (Pontos_Turisticos01 < Pontos_Turisticos02){
+            printf("Vencedor: %s\n", Estado02);
+        } else {
+            printf("Empate!\n");
+        }
+        break;
 
+        default:
+            printf("Opção inválida!\n");
+            break;
+    }
+
+        return 0;
 }
+
+
