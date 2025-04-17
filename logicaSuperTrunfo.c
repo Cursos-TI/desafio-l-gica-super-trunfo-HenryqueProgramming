@@ -117,6 +117,10 @@ int main(){
     printf("4. Densidade Populacional\n");
     printf("5. Pontos Turísticos\n");
 
+    // Armazenando a escolha do usuário
+
+    scanf("%d", &opcao);
+
 
     return 0;
 
