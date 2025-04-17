@@ -151,6 +151,34 @@ int main(){
         }
         break;
 
+        case 3:
+        printf("\n--- PIB ---\n");
+        printf("%s: %.2f\n", Estado01, PIB01);
+         printf("%s: %.2f\n", Estado02, PIB02);
+
+        if (PIB01 > PIB02){
+            printf("Vencedor: %s\n", Estado01); 
+        } else if (PIB01 < PIB02){
+            printf("Vencedor: %s\n", Estado02);
+        } else {
+            printf("Empate!\n");
+        }
+        break;
+
+    case 4:
+        printf("\n--- Densidade Populacional (Menor vence!) ---\n");
+        printf("%s: %.2f\n", Estado01, Densidade_Populacional01);
+        printf("%s: %.2f\n", Estado02, Densidade_Populacional02);
+
+        if (Densidade_Populacional01 < Densidade_Populacional02){
+            printf("Vencedor: %s\n", Estado01);
+        } else if (Densidade_Populacional02 < Densidade_Populacional01){
+            printf("Vencedor: %s\n", Estado02);
+        } else {
+            printf("Empate!\n");
+        }
+        break;
+
 
     return 0;
 
